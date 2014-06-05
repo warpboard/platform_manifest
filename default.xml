@@ -11,8 +11,8 @@
            sync-j="4" />
 
   <!-- Freescale kernel and U-Boot -->
-  <project path="kernel_imx" name="linux-imx6" remote="warpboard-github" revision="refs/tags/jb4.3_1.1.0-ga" />
-  <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="warpboard-github" revision="refs/tags/jb4.3_1.1.0-ga" />
+  <project path="kernel_imx" name="linux-imx6" remote="warpboard-github" revision="warp/jb4.3_1.1.0-ga_initial" />
+  <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="warpboard-github" revision="warp/imx_v2013.04_3.10.17_1.0.0_ga_initial" />
 
   <!-- Freescale proprietary -->
   <!-- <project path="device/fsl-proprietary" name="device/fsl-proprietary" /> -->
@@ -21,7 +21,7 @@
   <!-- <project path="external/linux-test" name="platform/external/linux-test" /> -->
 
   <!-- Freescale additions, open source -->
-  <project path="device/fsl" name="device_fsl" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
+  <project path="device/fsl" name="device_fsl" remote="warpboard-github" revision="warp/imx_open-jb4.3_1.1.0-ga" />
   <project path="hardware/imx" name="platform_hardware_imx" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="external/linux-lib" name="platform_external_linux-lib" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="external/busybox" name="platform_external_busybox" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
