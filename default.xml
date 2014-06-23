@@ -24,6 +24,8 @@
   <project path="device/fsl" name="device_fsl" remote="warpboard-github" revision="warp/imx_open-jb4.3_1.1.0-ga" />
   <project path="hardware/imx" name="platform_hardware_imx" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="external/linux-lib" name="platform_external_linux-lib" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
+  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="external/busybox" name="platform_external_busybox" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="external/powerdebug" name="platform_external_powerdebug" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="packages/apps/fsl_imx_demo" name="platform_packages_apps_fsl_imx_demo" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
@@ -39,10 +41,8 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="frameworks/rs" name="platform_frameworks_rs" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="external/tinyalsa" name="platform_external_tinyalsa" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
