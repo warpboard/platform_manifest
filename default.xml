@@ -26,7 +26,7 @@
   <project path="external/linux-lib" name="platform_external_linux-lib" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
-  <project path="external/busybox" name="platform_external_busybox" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
+  <project path="external/busybox" name="android_external_busybox" remote="warpboard-github" revision="cm-10.2" />
   <project path="external/powerdebug" name="platform_external_powerdebug" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="packages/apps/fsl_imx_demo" name="platform_packages_apps_fsl_imx_demo" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
