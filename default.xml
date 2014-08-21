@@ -22,7 +22,7 @@
 
   <!-- Freescale additions, open source -->
   <project path="device/fsl" name="device_fsl" remote="warpboard-github" revision="warp/imx_open-jb4.3_1.1.0-ga" />
-  <project path="hardware/imx" name="platform_hardware_imx" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
+  <project path="hardware/imx" name="platform_hardware_imx" remote="warpboard-github" revision="warp/imx_open-jb4.3_1.1.0-ga" />
   <project path="external/linux-lib" name="platform_external_linux-lib" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="warpboard-github" revision="imx_open-jb4.3_1.1.0-ga" />
