@@ -11,8 +11,8 @@
            sync-j="4" />
 
   <!-- Freescale kernel and U-Boot -->
-  <project path="kernel_imx" name="linux-imx6" remote="warpboard-github" revision="warp/jb4.3_1.1.0-ga_initial" />
-  <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="warpboard-github" revision="warp/imx_v2013.04_3.10.17_1.0.0_ga_initial" />
+  <project path="kernel_imx" name="linux-imx6" remote="warpboard-github" revision="warp/jb4.3_1.1.0-ga" />
+  <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="warpboard-github" revision="warp/imx_v2013.04_3.10.17_1.0.0_ga" />
 
   <!-- Freescale proprietary -->
   <!-- <project path="device/fsl-proprietary" name="device/fsl-proprietary" /> -->
@@ -62,6 +62,9 @@
   <project path="packages/apps/Mms" name="platform_packages_apps_Mms" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="packages/apps/Gallery" name="platform_packages_apps_Gallery" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="packages/apps/LegacyCamera" name="platform_packages_apps_LegacyCamera" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
+
+  <!-- WaRP updates to AOSP -->
+  <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="broadcom_wlan" remote="warpboard-github" revision="warp/imx_jb4.3_1.1.0-ga" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -271,7 +274,6 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
