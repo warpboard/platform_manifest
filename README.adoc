@@ -1,0 +1,23 @@
+= WaRP Board Android
+
+This is the central place for Android system ported to WaRP Board. This repository cluster any needed piece of code to allow you to download, build and launch Android in your WaRP board.
+
+= Download
+
+Make sure you have the `repo` application properly installed.
+
+[source, console]
+$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ repo init -u https://github.com/warpboard/platform_manifest/ -b warp/imx_open_jb4.3_1.1.0-ga
+$ repo sync
+
+= Build
+
+[source, console]
+$ source build/envsetup.sh
+$ lunch warpboard-eng
+$ make -j4
+
+= Contribute
+
+Please visit http://warpboard.org in order to follow the WaRP Board community.
