@@ -40,7 +40,7 @@
   <project path="bionic" name="platform_bionic" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="warpboard-github" revision="warp/imx_jb4.3_1.1.0-ga" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="frameworks/rs" name="platform_frameworks_rs" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" groups="pdk" remote="warpboard-github" revision="imx_jb4.3_1.1.0-ga" />
