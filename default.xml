@@ -65,6 +65,7 @@
 
   <!-- WaRP updates to AOSP -->
   <project path="hardware/broadcom/wlan" name="platform_hardware_broadcom_wlan" groups="broadcom_wlan" remote="warpboard-github" revision="warp/imx_jb4.3_1.1.0-ga" />
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" groups="pdk" remote="warpboard-github" revision="warp/imx_jb4.3_1.1.0-ga" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -273,7 +274,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
